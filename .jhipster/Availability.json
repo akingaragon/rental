@@ -1,0 +1,15 @@
+{
+  "applications": "*",
+  "changelogDate": "20231204120238",
+  "entityTableName": "availability",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Availability",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
