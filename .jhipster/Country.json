@@ -1,0 +1,22 @@
+{
+  "applications": "*",
+  "changelogDate": "20231204120238",
+  "entityTableName": "country",
+  "fields": [
+    {
+      "fieldName": "countryName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Country",
+  "relationships": [
+    {
+      "otherEntityName": "region",
+      "relationshipName": "region",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
